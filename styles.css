@@ -1,0 +1,134 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+@media screen {
+}
+
+@media screen {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.contact-us-section {
+}
+
+.contact-wrapper {
+  width: 375px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.contact-header {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+  background-color: black;
+}
+.container {
+}
+.contact-text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+.contact-form {
+  padding: 48px 28px;
+  border-radius: 30px;
+  padding: 48px 28px;
+  width: 335px;
+  height: 512px;
+  background: #f3f3f3;
+}
+.contact-input {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding: 12px 226px 12px 14px;
+  width: 279px;
+  height: 42px;
+}
+
+.contact-input::placeholder {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #0c0c0c;
+}
+
+.contact-textarea {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding: 12px 136px 54px 14px;
+  width: 279px;
+  height: 84px;
+  resize: none;
+}
+
+.contact-textarea::placeholder {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #0c0c0c;
+}
+.contact-button {
+  border-radius: 16px;
+  padding: 12px 50px;
+  width: 134px;
+  height: 42px;
+  background: #3350e9;
+}

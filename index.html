@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="contact-us-section">
+        <div class="contact-wrapper">
+          <h2 class="contact-header">Contact Us</h2>
+          <form class="contact-form">
+            <p class="contact-text">
+              Please use the form below to contact us. Enter your name, email,
+              phone, and message and we'll get back to you shortly.
+            </p>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="contact-input"
+              required
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="contact-input"
+              required
+              placeholder="Email"
+            />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class="contact-input"
+              required
+              placeholder="+380"
+            />
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              required
+              class="contact-textarea"
+            ></textarea>
+          </form>
+          <button type="submit" class="contact-button">Send</button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
