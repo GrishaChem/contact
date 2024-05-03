@@ -60,7 +60,7 @@ img {
 
 .contact-wrapper {
   width: 375px;
-  padding: 20px 0;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -72,7 +72,6 @@ img {
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
-  background-color: black;
 }
 /* .container {
 } */
@@ -99,6 +98,7 @@ img {
   padding: 12px 226px 12px 14px;
   width: 279px;
   height: 42px;
+  margin-bottom: 18px;
 }
 
 .contact-input::placeholder {
@@ -116,6 +116,7 @@ img {
   width: 279px;
   height: 84px;
   resize: none;
+  margin-bottom: 28px;
 }
 
 .contact-textarea::placeholder {
